@@ -30,7 +30,7 @@ limitations under the License.
 {%- endif %}
 
 {% if properties['size'] == 'small' %}
-  {% set DISK_SIZE = 30 %}
+  {% set DISK_SIZE = 50 %}
   {% set DISK_TYPE = 'pd-standard' %}
   {% set MACHINE_TYPE = 'custom-1-3072' %}
 {% elif properties['size'] == 'large' %}
